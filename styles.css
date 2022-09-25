@@ -1,13 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .navbar {
     background-color: #ffffff;
-    height: 70px;
-    padding: 0px 60px;
+    text-align: center;
     border-bottom: 2px solid #557755;
+    margin-bottom: 30px;
 }
 .logo {
     color: #b9dbb7;
@@ -15,8 +17,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 60px;
-    padding: 21px;
-    margin: 200px;
+    padding: 13px;
     width: 80px;
     background-color: #557755;
 }
@@ -28,9 +29,10 @@ body {
     display: flex;
 }
 .navbar ul li a {
-    line-height: 60px;
+    line-height: 40px;
     color: #557755;
     padding: 12px 30px;
+    text-align: center;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -41,15 +43,16 @@ body {
 }
 body {
     background-color: #ffffff;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23b9dbb7' fill-opacity='0.5'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80         105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23b9dbb7' fill-opacity='0.5'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 .aboutme {
     background-color: #b9dbb7;
     display: inline-block;
-    margin: 2rem 2rem 10rem 15rem;
+    margin: 0 auto 0 20px;
+    max-width: 1000px;
     padding: 2rem;
     text-align: left;
-    width: 40%;
+    width: 60%;
     height: auto;
     color: white;
     font-size: 20px;
@@ -59,7 +62,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     padding: 2rem;
     filter: drop-shadow(8px 8px 5px #557755);
 }
-
 h1,h2 {
     border-bottom: 2px solid #557755;
     color: #ffffff;
@@ -72,7 +74,7 @@ h1 {
 .sidebar {
     background-color: #b9dbb7;
     float: right;
-    margin: 2rem 10rem 40rem 0;
+    margin: 0 20px auto 10px;
     padding: 5px;
 }
 .sidebar ul {
@@ -98,9 +100,6 @@ footer{
     background-color: #b9dbb7;
     height: 60px;
     width: 100%;
-    display: flex; 
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
+    margin-top: auto;
     border-top: 2px solid #557755;;
 }
