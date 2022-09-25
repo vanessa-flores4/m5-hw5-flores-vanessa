@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #ffffff;
+    height: 70px;
+    padding: 0px 60px;
+    border-bottom: 2px solid #557755;
+}
+.logo {
+    color: #b9dbb7;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 60px;
+    padding: 21px;
+    margin: 200px;
+    width: 80px;
+    background-color: #557755;
+}
+.navbar ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+}
+.navbar ul li a {
+    line-height: 60px;
+    color: #557755;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar li + li {
+    border-left: 2px solid#b9dbb7;
+}
+body {
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23b9dbb7' fill-opacity='0.5'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.aboutme {
+    background-color: #b9dbb7;
+    display: inline-block;
+    margin: 2rem 2rem 10rem 15rem;
+    padding: 2rem;
+    text-align: left;
+    width: 40%;
+    height: auto;
+    color: white;
+    font-size: 20px;
+}
+.gradimg {
+    float: left;
+    padding: 2rem;
+    filter: drop-shadow(8px 8px 5px #557755);
+}
+
+h1,h2 {
+    border-bottom: 2px solid #557755;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+.sidebar {
+    background-color: #b9dbb7;
+    float: right;
+    margin: 2rem 10rem 40rem 0;
+    padding: 5px;
+}
+.sidebar ul {
+    list-style: none;
+    float: left;
+    margin-top: 0;
+    padding: 1rem;
+    display: flex;
+}
+.sidebar ul li a {
+    padding: 2px 5px;
+    filter: drop-shadow(8px 8px 5px #557755);
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 20px;
+}
+footer{
+    color: #557755;
+    text-align: center;
+    background-color: #b9dbb7;
+    height: 60px;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid #557755;;
+}
